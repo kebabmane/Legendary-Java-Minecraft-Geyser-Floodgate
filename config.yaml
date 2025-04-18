@@ -1,0 +1,39 @@
+name: Legendary Minecraft Server
+version: "1.0"
+slug: legendary_minecraft
+description: Minecraft Java server with Geyser and Floodgate support
+arch:
+  - amd64
+  - armv7
+  - aarch64
+startup: services
+boot: auto
+ports:
+  25565/tcp: 25565
+  19132/tcp: 19132
+  19132/udp: 19132
+map:
+  - addon_config:rw
+  - share:rw
+schema:
+  Port: int?
+  BedrockPort: int?
+  MaxMemory: int?
+  Version: str?
+  TZ: str?
+  NoBackup: str?
+  BackupCount: int?
+  NoPermCheck: str?
+  NoViaVersion: str?
+  QuietCurl: str?
+options:
+  Port: 25565
+  BedrockPort: 19132
+  MaxMemory: 2048
+  Version: "1.21.3"
+  TZ: "Australia/Melbourne"
+  NoBackup: ""
+  BackupCount: 10
+  NoPermCheck: ""
+  NoViaVersion: ""
+  QuietCurl: ""
