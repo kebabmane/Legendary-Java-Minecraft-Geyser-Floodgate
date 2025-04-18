@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
 name: Minecraft for Home Assistant
-url: 'https://github.com/kebabmane/Legendary-Java-Minecraft-Geyser-Floodgate
+url: 'https://github.com/kebabmane/legendary-minecraft-addon'
 maintainer: Awesome Maintainer <awesome@example.com>
